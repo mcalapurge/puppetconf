@@ -1,0 +1,4 @@
+.vscode/
+.vagrant/
+.vagrant.d/
+.idea/

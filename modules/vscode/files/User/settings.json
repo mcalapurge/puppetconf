@@ -1,0 +1,89 @@
+{
+    "editor.fontFamily": "'Fira Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 12,
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.shellArgs.windows": [
+        "/k %CMDER_ROOT%\\vendor\\init.bat"
+    ],
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "workbench.statusBar.feedback.visible": false,
+    "window.menuBarVisibility": "toggle",
+    "terminal.integrated.fontSize": 12,
+    "vim.statusBarColors.insert": "#33f",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#000",
+        "statusBar.noFolderBackground": "#000",
+        "statusBar.debuggingBackground": "#000"
+    },
+    "vim.statusBarColors.normal": "#000",
+    "vim.statusBarColors.replace": "#300",
+    "vim.statusBarColors.visual": "#550",
+    "vim.statusBarColors.visualblock": "#550",
+    "vim.statusBarColors.visualline": "#550",
+    "editor.mouseWheelZoom": true,
+    "workbench.activityBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "gitlens.settings.mode": "advanced",
+    "gitlens.codeLens.enabled": false,
+    "scm.diffDecorations": "gutter",
+    "scm.diffDecorationsGutterWidth": 5,
+    "editor.minimap.showSlider": "always",
+    "cfnLint.ignoreRules": [
+        "Sub",
+        "ImportValue",
+        "Ref"
+    ],
+    "yaml.customTags": [
+        "!Sub",
+        "!Join",
+        "!ImportValue",
+        "!Ref"
+    ],
+    "editor.minimap.enabled": false,
+    "vim.useSystemClipboard": true,
+    "window.title": "[VS CODE] - ${dirty}${activeEditorShort}${separator}${rootName}",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "editor.lineNumbers": "relative",
+    "git.autofetch": true,
+    "files.associations": {
+        "*.config": "shellscript"
+    },
+    "cSpell.language": "en,en-GB",
+    "gitProjectManager.baseProjectsFolders": [
+        "/home/kai/dev"
+    ],
+    "gitlens.gitExplorer.files.compact": false,
+    "gitlens.gitExplorer.location": "explorer",
+    "gitlens.historyExplorer.location": "explorer",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.statusBar.enabled": false,
+    "gitlens.recentChanges.highlight.locations": [],
+    "window.zoomLevel": 1,
+    "php.validate.enable": true,
+    "javascript.validate.enable": true,
+    "vscode-mysql.enableTelemetry": false,
+    "php.validate.executablePath": "/usr/bin/php",
+    "php.executablePath": "/usr/bin/php",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "gitlens.views.repositories.files.compact": false,
+    "gitlens.views.repositories.location": "explorer",
+    "gitlens.views.fileHistory.location": "explorer",
+    "gitlens.views.lineHistory.location": "explorer",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "puppet.installDirectory": "/urs/bin/puppet"
+}
